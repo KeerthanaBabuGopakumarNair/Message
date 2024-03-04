@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5dc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.gif {
+    max-width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #008080;
+    margin: 15px 0;
+}
+
+.btn-group {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #faf9f9;
+    border: 2px solid #000000;
+    font-size: 1.2em;
+    margin-top: -40px;
+}
+
+button:nth-child(1) {
+    margin-left: -200px;
+    background: #008080;
+}
+
+button:nth-child(2) {
+    margin-right: -200px;
+    background: #008080;
+    color: #ffffff;
+    margin-top: -40px;
+}
+
+#fireworksCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
